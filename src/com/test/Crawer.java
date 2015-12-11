@@ -28,6 +28,7 @@ public class Crawer {
 				fundType = fundTypeTemp;
 			}
 			
+			
 			Elements tdElements = trElement.select("td");
 			if(tdElements.size() > 0){
 				Fund fund = new Fund();
